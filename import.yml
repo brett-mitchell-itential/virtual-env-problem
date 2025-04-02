@@ -1,0 +1,11 @@
+repositories:
+    - name: github/brett-mitchell-itential/virtual-env-problem
+      url: https://github.com/brett-mitchell-itential/virtual-env-problem.git
+      reference: main
+services:
+    - name: test
+      type: python-script
+      description: Demonstrates Python Script virtualenv Problem
+      filename: test.py
+      working-directory: python_scripts
+      repository: github/brett-mitchell-itential/virtual-env-problem
